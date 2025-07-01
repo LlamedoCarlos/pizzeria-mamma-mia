@@ -7,7 +7,10 @@
     "dev": "vite",
     "build": "vite build",
     "serve": "vite preview",
+<<<<<<< HEAD
     "start": "vite",
+=======
+>>>>>>> 7c047546dc57cdaa5ba6f0c01eb1b0e6320080c3
     "lint": "eslint .",
     "preview": "vite preview"
   },
@@ -16,8 +19,12 @@
     "prop-types": "^15.8.1",
     "react": "^18.3.1",
     "react-bootstrap": "^2.10.8",
+<<<<<<< HEAD
     "react-dom": "^18.3.1",
     "react-router-dom": "^7.6.3"
+=======
+    "react-dom": "^18.3.1"
+>>>>>>> 7c047546dc57cdaa5ba6f0c01eb1b0e6320080c3
   },
   "devDependencies": {
     "@eslint/js": "^9.19.0",

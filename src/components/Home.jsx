@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, { useState, useEffect } from 'react';
 import Header from './Header';
 import Cardpizza from './Cardpizza';
@@ -23,6 +24,15 @@ const Home = () => {
     fetchPizzas();
   }, []);
 
+=======
+import React from 'react';
+import Header from './Header';
+import Cardpizza from './Cardpizza'; // ✅ Corregido: sin './components/' porque están en la misma carpeta
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { pizzas } from './pizzas';
+
+const Home = () => {
+>>>>>>> 7c047546dc57cdaa5ba6f0c01eb1b0e6320080c3
   return (
     <div>
       <Header />
@@ -35,7 +45,10 @@ const Home = () => {
                 price={pizza.price}
                 ingredients={pizza.ingredients}
                 img={pizza.img}
+<<<<<<< HEAD
                 desc={pizza.desc}
+=======
+>>>>>>> 7c047546dc57cdaa5ba6f0c01eb1b0e6320080c3
               />
             </div>
           ))}
@@ -45,4 +58,8 @@ const Home = () => {
   );
 };
 
+<<<<<<< HEAD
 export default Home;
+=======
+export default Home;
+>>>>>>> 7c047546dc57cdaa5ba6f0c01eb1b0e6320080c3
